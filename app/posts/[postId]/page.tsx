@@ -51,7 +51,7 @@ export default async function Post({params}: Props) {
             <article>
                 <section dangerouslySetInnerHTML={{__html: contentHtml}}/>
                 <p>
-                    <Link href={'/'} className={'flex items-center gap-2'}> {<FaArrowLeft/>} Back to home</Link>
+                    <Link href={'/'} className={'flex items-center gap-2'}> {<FaArrowLeft/>}Wróć</Link>
                 </p>
             </article>
         </main>
